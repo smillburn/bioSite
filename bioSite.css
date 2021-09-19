@@ -1,11 +1,7 @@
 /*
  * Name: Skyler Millburn
  * Date: 9/19/2021
- * Assignment: 7.2
-*/
-/*
-48E5C2
-9E2B25
+ * Assignment: bioSite
 */
 
 html{ height: 100%;}
@@ -65,7 +61,6 @@ h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    flex: 1 1 auto;
 }
 
 .main-content{
