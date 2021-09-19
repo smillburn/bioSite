@@ -1,0 +1,111 @@
+/*
+ * Name: Skyler Millburn
+ * Date: 9/19/2021
+ * Assignment: 7.2
+*/
+/*
+48E5C2
+9E2B25
+*/
+
+html{ height: 100%;}
+body{
+    height: 85%;
+    margin: 0;
+    font-family: 'Noto Sans', 'Oswald', Verdana, Arial, sans-serif;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background-color: #48E5C2;
+    color:#32533D;
+}
+
+h1{
+    font-weight: 400;
+}
+
+#navbar{ 
+    overflow: hidden;
+    border-bottom: solid 5px #9E2B25;
+    background-color: #48E5C2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+
+#navbar a{
+    display: block;
+    color: #32533D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover{
+    background-color: #9E2B25;
+    color:#48E5C2;
+}
+
+.ribbon-left{
+    background-image: linear-gradient(to right, #5299D3, white);
+    width: 20%;
+}
+
+.ribbon-right{
+    background-image: linear-gradient(to left, #5299D3, white);
+    width: 20%;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.main-content{
+    height: 100%;
+    overflow: auto;
+    width: 60%;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.hobby-item {
+    padding: 10px 20px;
+}
+
+.hobby-header1{
+    text-align:left;
+}
+.hobby-header2{
+    text-align:right;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+}
+
+.image-alt{
+    height: 150px;
+    width: 600px;
+}
+
+.image-hobby{
+    height: 200px;
+    width: 200px;
+}
+
+
