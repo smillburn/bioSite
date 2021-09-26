@@ -9,6 +9,7 @@ body{
     height: 85%;
     margin: 0;
     font-family: 'Noto Sans', 'Oswald', Verdana, Arial, sans-serif;
+    overflow: hidden;
 }
 
 header{
@@ -48,12 +49,12 @@ h1{
 
 .ribbon-left{
     background-image: linear-gradient(to right, #5299D3, white);
-    width: 20%;
+    width: 100%;
 }
 
 .ribbon-right{
     background-image: linear-gradient(to left, #5299D3, white);
-    width: 20%;
+    width: 100%;
 }
 
 #container{
@@ -64,10 +65,22 @@ h1{
 }
 
 .main-content{
-    height: 100%;
-    overflow: auto;
-    width: 60%;
+    height: 95%;
+    overflow:auto;
+    width: 300%;
     text-align: center;
+    padding-bottom: 100px;
+    max-width: 900px;
+}
+
+#bio {
+    width: 700px;
+    margin: auto;
+}
+
+#hobby-desc {
+    min-width: 300px;
+    max-width: 700px;
 }
 
 .row{
@@ -101,6 +114,35 @@ img{
 .image-hobby{
     height: 200px;
     width: 200px;
+}
+
+.hobby-fig {
+    margin: auto;
+    padding: 20px
+}
+
+footer {
+    background-color: #48E5C2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-style: italic;
+    font-weight: 400;
+}
+
+footer p{
+    float: right;
+    color:#32533D;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color:#32533D;
+}
+a:hover{
+    text-decoration: underline;
 }
 
 
