@@ -65,11 +65,10 @@ h1{
 }
 
 .main-content{
-    height: 95%;
     overflow:auto;
     width: 300%;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     min-width: 450px;
     max-width: 900px;
 }
@@ -97,10 +96,10 @@ h1{
 }
 
 .hobby-header1{
-    text-align:left;
+    text-align:center;
 }
 .hobby-header2{
-    text-align:right;
+    text-align:center;
 }
 
 img{
