@@ -6,17 +6,20 @@
 
 html{ height: 100%;}
 body{
-    height: 85%;
     margin: 0;
     font-family: 'Noto Sans', 'Oswald', Verdana, Arial, sans-serif;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 header{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     background-color: #48E5C2;
     color:#32533D;
+    height: 80px;
 }
 
 h1{
@@ -32,10 +35,10 @@ h1{
     justify-content: space-around;
     padding-right: 30%;
     padding-left: 30%;
+    height: 50px;
 }
 
 #navbar a{
-    display: block;
     color: #32533D;
     text-align: center;
     padding: 14px 16px;
@@ -58,17 +61,18 @@ h1{
 }
 
 #container{
-    height: 100%;
     display: flex;
     flex-direction: row;
     width: 100%;
+    flex: 1;
+    overflow: auto;
 }
 
 .main-content{
     overflow:auto;
     width: 300%;
     text-align: center;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
     min-width: 450px;
     max-width: 900px;
 }
@@ -77,6 +81,7 @@ h1{
     min-width: 400px;
     max-width: 700px;
     margin: auto;
+    padding-top: 40px;
 }
 
 .hobby-desc {
@@ -124,12 +129,11 @@ img{
 
 footer {
     background-color: #48E5C2;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     width: 100%;
     font-style: italic;
     font-weight: 400;
+    min-height: 50px;
+    flex: none
 }
 
 footer p{
